@@ -1,0 +1,522 @@
+/* 设置页面背景颜色 */
+body {
+    background-color: #f3f5f7;
+}
+
+/* 网页头部样式 */
+.header {
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 设置 logo 内容居中 */
+.header .wrapper div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 导航包裹盒子样式 */
+.navigation {
+    height: 76px;
+    margin-left: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 导航包裹盒子内的样式 */
+.navigation div {
+    height: 32px;
+    display: inline-block;
+    padding: 0 9px;
+    margin-right: 26px;
+}
+
+/* 设置导航栏内容鼠标悬停效果 */
+.navigation div:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* 设置导航栏 a 标签效果 */
+.navigation div a {
+    font-size: 18px;
+    color: #050505;
+}
+
+/* 搜索栏样式 */
+.search {
+    width: 412px;
+    height: 42px;
+    border: 1px solid #00a4ff;
+    margin-left: 59px;
+}
+
+/* 搜索输入框样式 */
+.search input {
+    padding-left: 20px;
+    width: 362px;
+    height: 40px;
+    border: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+}
+
+/* 设置搜索按钮样式 */
+.search button {
+    width: 49px;
+    height: 42px;
+    background-image: url(../image/btn.png);
+    border: 0;
+}
+
+/* 设置用户信息样式 */
+.user_info {
+    margin-left: 50px;
+    height: 32px;
+}
+
+/* 设置用户昵称样式 */
+.user_info p {
+    color: #666666;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* 设置 banner 样式 */
+.banner {
+    position: relative;
+    height: 420px;
+    background-color: #1C036C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 设置 banner 图片 */
+.banner .wrapper {
+    position: relative;
+    width: 1200px;
+    height: 420px;
+    background-image: url(../image/banner2.png);
+}
+
+/* 设置 banner 左侧导航样式 */
+.banner .wrapper .left_navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height: 420px;
+    background-color: rgb(0, 0, 0 , 0.3);
+    padding: 0px 20px;
+    line-height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* 设置 banner 左侧导航 div 样式 */
+.banner .wrapper .left_navigation div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 设置 banner 左侧导航内 a、span 标签样式 */
+.left_navigation div a,
+.left_navigation div span {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* 设置 banner 左侧导航 a、span 标签鼠标悬停样式 */
+.left_navigation div:hover a,
+.left_navigation div:hover span {
+    color: #04bff0;
+}
+
+/* 设置 banner 右侧导航样式 */
+.banner .wrapper .right_navigation {
+    position: absolute;
+    right: 0;
+    width: 228px;
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 设置 banner 右侧导航中第一个 div 元素样式 */
+.right_navigation div:first-child {
+    height: 48px;
+    width: 100%;
+    background-color: #9bc3ea;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: none;
+}
+
+/* 设置 banner 右侧导航中 div 样式 */
+.right_navigation div {
+    padding: 0 22px; 
+    border-bottom: 2px solid #e5e5e5;
+    padding: 10px;
+}
+
+/* 设置我的课程中状态文本样式 */
+.my_courses_state {
+    font-size: 16px;
+    color: #4e4e4e;
+    display: inline-block;
+}
+
+/* 设置我的课程中课程名称样式 */
+.my_courses_name{
+    font-size: 14px;
+    color: #4e4e4e;
+    display: inline-block;
+}
+
+/* 设置我的课程中正在学习课程文本样式 */
+.my_courses_currently_learning {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+/* 设置 banner 右侧导航中最后一个 div 元素样式 */
+.right_navigation div:last-child {
+    border-bottom: none;
+}
+
+/* 设置我的课程中课程列表样式 */
+.courses_list {
+    align-items: flex-start;
+    width: 188px;
+}
+
+/* 设置我的课程中按钮样式 */
+.right_navigation div button {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #00a4ff;
+    background-color: #fff;
+    font-size: 16px;
+    color: #00a4ff;
+    font-weight: 700;
+}
+
+/* 设置精品推荐区域样式 */
+.recommended {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* 设置精品推荐区域版心样式 */
+.recommended .wrapper {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0px 2px 3px 0px
+        rgb(118, 118, 118, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.recommended .wrapper .course div {
+    display: inline-block;
+}
+
+/* 设置精品推荐中 a 标签样式 */
+.recommended .wrapper div a {
+    border-left: 1px solid #bfbfbf;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+}
+
+/* 设置精品推荐 h2 标签样式 */
+.recommended .wrapper div h2 {
+    color: #00a4ff;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 30px;
+}
+
+/* 设置精品推荐中最后一个 a 标签样式 */
+.recommended .wrapper .set a {
+    border-left: none;
+    color: #00a4ff;
+    font-size: 12px;
+}
+
+/* 设置 5 元素布局样式 */
+.five_elements_arrangement {    
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* 改变版心主轴方向为垂直 */
+.five_elements_arrangement .wrapper {
+    flex-direction: column;
+}
+
+/* 设置 5 元素布局课程标题样式 */
+.five_elements_arrangement .wrapper .title {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+/* 设置 5 元素布局课程标题 div 样式 */
+.five_elements_arrangement .wrapper .title div {
+    height: 100%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+/* 设置 5 元素布局课程标题 h2 标签样式 */
+.five_elements_arrangement .wrapper .title h2 {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+
+/* 设置 5 元素布局课程标题 a 标签样式 */
+.five_elements_arrangement .wrapper .title a {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-right: 30px;
+}
+
+/* 设置 5 元素布局课程标题 a 标签鼠标悬停样式 */
+.five_elements_arrangement .wrapper .title a:hover {
+    color: #00a4ff;
+}
+
+/* 设置 5 元素布局课程内容样式 */
+.five_elements_arrangement .wrapper .course div {
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+}
+
+/* 设置 5 元素布局课程内容盒子样式 */
+.five_elements_arrangement .wrapper .course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* 为 5 元素布局 div 之间添加一些垂直间距 */
+.five_elements_arrangement .wrapper .course div {
+    position: relative;
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+/* 设置 5 元素布局课程内容封面图片样式 */
+.five_elements_arrangement .wrapper .course div a img {
+    width: 100%;
+}
+
+/* 设置 5 元素布局课程内容标题样式 */
+.five_elements_arrangement .wrapper .course div h3 {
+    position: absolute;
+    left: 20px;
+    top: 180px;
+    right: 20px;
+    font-size: 14px;
+    text-align: left;
+    color: #050505;
+    font-weight: 400;
+}
+
+/* 设置 5 元素布局课程内容类型样式 */
+.five_elements_arrangement .wrapper .course div p {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.five_elements_arrangement .wrapper .course div p span {
+    color: #ff7c2d;
+}
+
+/* 设置 5 元素布局按钮样式 */
+.five_elements_arrangement .wrapper .title button {
+    width: 70px;
+    height: 25px;
+    background-color: transparent;
+    font-size: 12px;
+    color: #868686;
+    border: none;
+    margin: 10px;
+}
+
+/* 设置 5 元素布局按钮鼠标悬停样式 */
+.five_elements_arrangement .wrapper .title button:hover {
+    color: #00a4ff;
+}
+
+/* 设置左右布局样式 */
+.left_right_layout {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* 改变版心主轴方向为垂直 */
+.left_right_layout .wrapper {
+    flex-direction: column;
+}
+
+/* 设置左右布局标题样式 */
+.left_right_layout .wrapper .title {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+/* 设置左右布局标题 div 样式 */
+.left_right_layout .wrapper .title div {
+    height: 100%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+/* 设置左右布局标题 h2 标签样式 */
+.left_right_layout .wrapper .title h2 {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+
+/* 设置左右布局按钮样式 */
+.left_right_layout .wrapper .title button {
+    width: 70px;
+    height: 25px;
+    background-color: transparent;
+    font-size: 12px;
+    color: #868686;
+    border: none;
+    margin: 10px;
+}
+
+/* 设置左右布局按钮鼠标悬停样式 */
+.left_right_layout .wrapper .title button:hover {
+    color: #00a4ff;
+}
+
+/* 设置左右布局课程标题 a 标签样式 */
+.left_right_layout .wrapper .title a {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-right: 30px;
+}
+
+/* 设置左右布局课程标题 a 标签鼠标悬停样式 */
+.left_right_layout .wrapper .title a:hover {
+    color: #00a4ff;
+}
+
+/* 设置左右布局课程内容布局样式 */
+.left_right_layout .wrapper .course {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* 设置左右布局课程列表布局样式 */
+.left_right_layout .wrapper .course .top_course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+}
+
+/* 设置左右布局课程列表盒子样式 */
+.left_right_layout .wrapper .course .top_course .top_course_list div {
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+/* 设置左右布局课程列表布局样式 */
+.left_right_layout .wrapper .course .top_course .top_course_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* 设置左右布局课程列表内容封面图片样式 */
+.left_right_layout .wrapper .course .top_course .top_course_list div a img {
+    width: 100%;
+}
+
+/* 设置左右布局课程列表内容标题样式 */
+.left_right_layout .wrapper .course .top_course .top_course_list div h3 {
+    position: absolute;
+    left: 20px;
+    top: 180px;
+    right: 20px;
+    font-size: 14px;
+    text-align: left;
+    color: #050505;
+    font-weight: 400;
+}
+
+/* 设置左右布局课程列表内容类型样式 */
+.left_right_layout .wrapper .course .top_course .top_course_list div p {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.left_right_layout .wrapper .course .top_course .top_course_list div p span {
+    color: #ff7c2d;
+}
