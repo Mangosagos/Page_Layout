@@ -15,7 +15,7 @@
         clear: both;
     }
 
-/* 设置页面内容居中布局 */
+/* 设置页面版心布局 */
 .wrapper {
     width: 1200px;
     display: flex;
@@ -31,4 +31,9 @@ a {
 /* 清除 li 标签样式 */
 li {
     list-style: none;
+}
+
+/* 设置全局字体样式 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }

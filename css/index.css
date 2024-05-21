@@ -205,7 +205,7 @@ body {
     width: 200px;
     height: 40px;
     border: 2px solid #00a4ff;
-    background-color: #fff;
+    background-color: transparent;
     font-size: 16px;
     color: #00a4ff;
     font-weight: 700;
@@ -519,4 +519,86 @@ body {
 
 .left_right_layout .wrapper .course .top_course .top_course_list div p span {
     color: #ff7c2d;
+}
+
+/* 设置底部导航样式 */
+.trailer {
+    height: 417px;
+    background-color: #fff;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* 设置底部导航版心样式 */
+.trailer .wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* 设置企业信息区域盒子样式 */
+.trailer .wrapper .left {
+    max-width: 600px;
+    max-height: 100%;
+}
+
+/* 设置企业信息区域 div 样式 */
+.trailer .wrapper .left div {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+/* 设置企业信息区域 div 中 a 标签样式 */
+.trailer .wrapper .left div a {
+    display: block;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    color: #00a4ff;
+    text-align: center;
+    line-height: 36px;
+}
+
+/* 设置网页底部导航区域盒子样式 */
+.trailer .wrapper .right {
+    max-width: 600px;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 设置网页底部导航区域盒子 div 样式 */
+.trailer .wrapper .right div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    height: 100%;
+    max-width: 140px;
+    margin: 20px 0 0 100px;
+}
+
+/* 设置网页底部导航区域盒子 div 中 h3 样式 */
+.trailer .wrapper .right .navigation h3 {
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* 设置网页底部导航区域盒子 div 中 a 标签样式 */
+.trailer .wrapper .right .navigation a {
+    color: #606060;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* 设置网页底部导航区域盒子 div 中 a 标签鼠标悬停样式 */
+.trailer .wrapper .right .navigation a:hover {
+    color: #00a4ff;
 }
