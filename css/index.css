@@ -9,6 +9,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
 }
 
 /* 设置 logo 内容居中 */
@@ -230,6 +235,7 @@ body {
     justify-content: space-between; 
 }
 
+/* 设置精品推荐区域 div 变成行内块样式 */
 .recommended .wrapper .course div {
     display: inline-block;
 }
@@ -311,13 +317,6 @@ body {
     color: #00a4ff;
 }
 
-/* 设置 5 元素布局课程内容样式 */
-.five_elements_arrangement .wrapper .course div {
-    width: 228px;
-    height: 270px;
-    background-color: #fff;
-}
-
 /* 设置 5 元素布局课程内容盒子样式 */
 .five_elements_arrangement .wrapper .course {
     display: flex;
@@ -326,14 +325,31 @@ body {
     width: 100%;
 }
 
-/* 为 5 元素布局 div 之间添加一些垂直间距 */
+/* 设置 5 元素布局课程内容样式 */
 .five_elements_arrangement .wrapper .course div {
     position: relative;
-    margin-top: 10px; 
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-top: 10px; 
+}
+
+/* 设置课程 hot 标识图片样式 */
+.five_elements_arrangement .wrapper .course div .hot_img {
+    position: absolute;
+    top: 4px;
+    right: -4px;
+}
+
+/* 设置课程 new 标识图片样式 */
+.five_elements_arrangement .wrapper .course div .new_img {
+    position: absolute;
+    top: 4px;
+    right: -4px;
 }
 
 /* 设置 5 元素布局课程内容封面图片样式 */

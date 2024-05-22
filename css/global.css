@@ -37,3 +37,7 @@ li {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+.body-content {
+    margin-top: 76px; /* 设置顶部边距，防止内容被头部栏遮挡 */
+}
